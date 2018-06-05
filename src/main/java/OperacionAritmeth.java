@@ -5,24 +5,24 @@ public class OperacionAritmeth {
     public static void main (String[] args) {
         int a = 1;
         int b = 2;
-        int suma = a + b;
+        int suma1,multiplicacion1,resta1;
+        suma1= OperacionAritmeth.suma(a, b);
+        multiplicacion1= OperacionAritmeth.multiplicacion(a, b);
+        resta1= OperacionAritmeth.resta(a, b);
         System.out.print("la suma es:");
-        System.out.print(suma);
+        System.out.print(suma1);
     }
-    public int multiplicacion(int a, int b){
+
+    public static int suma(int a, int b){
+        return a+b;
+    }
+    public static int multiplicacion(int a, int b){
         return a*b;
     }
-    public static void main(){
-        int a = 1;
-        int b =2;
-        int suma = a + b;
-        System.out.print("la suma es:");
-        System.out.print(suma);
 
-        int i =10;
-        int j=2;
-        int resta=i - j;
-        System.out.print("Resta:");
-        System.out.println(resta);
+    public static int resta(int a,int b){
+    return a-b;
+    }
+
     }
 
