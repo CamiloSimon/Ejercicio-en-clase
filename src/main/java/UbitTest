@@ -1,0 +1,8 @@
+public class UbitTest{
+    @Test
+    public void testMultiplicacion(){
+        OperacionAritmeth operacionAritmeth = new OperacionAritmeth();
+        int result= operacionAritmeth.multiplicacion(5,3);
+        Assert.IsEqual(15, result);
+    }
+}
